@@ -23,23 +23,23 @@
     "list": [{
       "pagePath": "pagePath",
       "text": "多彩",
-      "iconPath": "iconPath",
-      "selectedIconPath": "selectedIconPath"
+      "iconPath": "image/icon_tab_menu_home_n.png",
+      "selectedIconPath": "image/icon_tab_menu_home_s.png"
     }, {
       "pagePath": "pagePath",
       "text": "财富管家",
-      "iconPath": "iconPath",
-      "selectedIconPath": "selectedIconPath"
+      "iconPath": "image/icon_tab_menu_manager_n.png",
+      "selectedIconPath": "image/icon_tab_menu_manager_s.png"
     }, {
       "pagePath": "pagePath",
       "text": "投资圈",
-      "iconPath": "iconPath",
-      "selectedIconPath": "selectedIconPath"
+      "iconPath": "image/icon_tab_menu_fund_n.png",
+      "selectedIconPath": "image/icon_tab_menu_fund_s.png"
     }, {
       "pagePath": "pagePath",
       "text": "我的",
-      "iconPath": "iconPath",
-      "selectedIconPath": "selectedIconPath"
+      "iconPath": "image/icon_tab_menu_mine_n.png",
+      "selectedIconPath": "image/icon_tab_menu_mine_s.png"
     }]
   },
   "networkTimeout": {
