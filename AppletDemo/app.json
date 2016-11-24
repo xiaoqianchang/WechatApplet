@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/component/index",
+    "pages/component/component-pages/activity/main/main",
+    "pages/component/component-pages/fragment/main/main",
+    "pages/component/component-pages/fragment/fortunemanager/fortunemanager",
+    "pages/component/component-pages/fragment/fortunegroup/fortunegroup",
+    "pages/component/component-pages/fragment/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fbf9fe",
+    "backgroundColor": "#fbf9fe",
+    "navigationBarTitleText": "DuoCai",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pagePath",
+      "text": "多彩",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }, {
+      "pagePath": "pagePath",
+      "text": "财富管家",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }, {
+      "pagePath": "pagePath",
+      "text": "投资圈",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }, {
+      "pagePath": "pagePath",
+      "text": "我的",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
