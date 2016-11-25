@@ -1,5 +1,3 @@
-// This is our App Service.
-// Register a Page.
 Page({
   data:{
   },

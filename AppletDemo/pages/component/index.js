@@ -24,7 +24,8 @@ Page({
     })
   },
   onLoad: function () {
-    console.log('onLoad')
+    // 页面初始化
+    console.log('index.js---onLoad')
     var that = this
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){
@@ -34,5 +35,21 @@ Page({
         motto: 'Welcome to DuoCai!'
       })
     })
+  },
+  onShow:function(){
+    // 页面显示
+    console.log('index.js---onShow')
+  },
+  onReady:function(){
+    // 页面渲染完成
+    console.log('index.js---onReady')
+  },
+  onHide:function(){
+    // 页面隐藏
+    console.log('index.js---onHide')
+  },
+  onUnload:function(){
+    // 页面关闭
+    console.log('index.js---onUnload')
   }
 })

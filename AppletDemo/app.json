@@ -2,10 +2,15 @@
   "pages":[
     "pages/component/index",
     "pages/component/component-pages/activity/main/main",
-    "pages/component/component-pages/fragment/main/main",
-    "pages/component/component-pages/fragment/fortunemanager/fortunemanager",
-    "pages/component/component-pages/fragment/fortunegroup/fortunegroup",
-    "pages/component/component-pages/fragment/mine/mine",
+    "pages/component/component-pages/activity/fortunemanager/fortunemanager",
+    "pages/component/component-pages/activity/fortunegroup/fortunegroup",
+    "pages/component/component-pages/activity/mine/mine",
+    "pages/component/component-pages/activity/mine/myProperty/myProperty",
+    "pages/component/component-pages/activity/mine/tradeBillmine/tradeBillmine",
+    "pages/component/component-pages/activity/mine/bindingBankCard/bindingBankCard",
+    "pages/component/component-pages/activity/mine/riskEvaluation/riskEvaluation",
+    "pages/component/component-pages/activity/mine/collection/collection",
+    "pages/component/component-pages/activity/mine/help/help",
     "pages/logs/logs"
   ],
   "window":{
@@ -19,38 +24,29 @@
     "color": "#dddddd",
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#fbf9fe",
     "list": [{
-      "pagePath": "pagePath",
+      "pagePath": "pages/component/component-pages/activity/main/main",
       "text": "多彩",
       "iconPath": "image/icon_tab_menu_home_n.png",
       "selectedIconPath": "image/icon_tab_menu_home_s.png"
     }, {
-      "pagePath": "pagePath",
+      "pagePath": "pages/component/component-pages/activity/fortunemanager/fortunemanager",
       "text": "财富管家",
       "iconPath": "image/icon_tab_menu_manager_n.png",
       "selectedIconPath": "image/icon_tab_menu_manager_s.png"
     }, {
-      "pagePath": "pagePath",
+      "pagePath": "pages/component/component-pages/activity/fortunegroup/fortunegroup",
       "text": "投资圈",
       "iconPath": "image/icon_tab_menu_fund_n.png",
       "selectedIconPath": "image/icon_tab_menu_fund_s.png"
     }, {
-      "pagePath": "pagePath",
+      "pagePath": "pages/component/component-pages/activity/mine/mine",
       "text": "我的",
       "iconPath": "image/icon_tab_menu_mine_n.png",
       "selectedIconPath": "image/icon_tab_menu_mine_s.png"
     }]
   },
-  "networkTimeout": {
-    "request": 10000,
-    "connectSocket": 10000,
-    "uploadFile": 10000,
-    "downloadFile": 10000
-  },
-  "debug": true
-}
-
   "networkTimeout": {
     "request": 10000,
     "connectSocket": 10000,

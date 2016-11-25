@@ -1,34 +1,4 @@
 <!--index.wxml-->
 <view class="container">
-  <view id="head" bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-
-  <view>
-    <view bindtap="bindViewTap" class="itemStyle">
-      <image class="main-icon" src="../../../../../image/icon_my_property.png" background-size="cover"></image>
-      <text class="userinfo-nickname">我的资产</text>
-    </view>
-    <view bindtap="bindViewTap" class="itemStyle">
-      <image class="main-icon" src="../../../../../image/icon_trade_bill.png" background-size="cover"></image>
-      <text class="userinfo-nickname">交易账单</text>
-    </view>
-    <view bindtap="bindViewTap" class="itemStyle">
-      <image class="main-icon" src="../../../../../image/icon_binding_bank_card.png" background-size="cover"></image>
-      <text class="userinfo-nickname">银行卡</text>
-    </view>
-    <view bindtap="bindViewTap" class="itemStyle">
-      <image class="main-icon" src="../../../../../image/icon_mine_collection.png" background-size="cover"></image>
-      <text class="userinfo-nickname">收藏</text>
-    </view>
-    <view bindtap="bindViewTap" class="itemStyle">
-      <image class="main-icon" src="../../../../../image/icon_help.png" background-size="cover"></image>
-      <text class="userinfo-nickname">帮助</text>
-    </view>
-    <view bindtap="bindViewTap" class="itemStyle">
-      <image class="main-icon" src="../../../../../image/icon_help.png" background-size="cover"></image>
-      <text class="userinfo-nickname">1.1.0</text>
-    </view>
-  </view>
+  
 </view>
