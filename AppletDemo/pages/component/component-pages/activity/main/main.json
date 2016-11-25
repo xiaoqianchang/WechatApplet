@@ -1,3 +1,30 @@
 {
-    "navigationBarTitleText": "DuoCai main"
+    "navigationBarTitleText": "DuoCai main",
+    "tabBar": {
+        "color": "#dddddd",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#fbf9fe",
+        "list": [{
+            "pagePath": "pagePath",
+            "text": "多彩",
+            "iconPath": "iconPath",
+            "selectedIconPath": "selectedIconPath"
+        }, {
+            "pagePath": "pagePath",
+            "text": "财富管家",
+            "iconPath": "iconPath",
+            "selectedIconPath": "selectedIconPath"
+        }, {
+            "pagePath": "pagePath",
+            "text": "投资圈",
+            "iconPath": "iconPath",
+            "selectedIconPath": "selectedIconPath"
+        }, {
+            "pagePath": "pagePath",
+            "text": "我的",
+            "iconPath": "iconPath",
+            "selectedIconPath": "selectedIconPath"
+        }]
+    }
 }

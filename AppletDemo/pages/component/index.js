@@ -1,11 +1,17 @@
+// This is our App Service.
 //index.js
 //获取应用实例
 var app = getApp()
+
+// This is our data.
+var welcomeData = {
+  motto: 'Hello',
+  userInfo: {}
+}
+
+// Register a Page.
 Page({
-  data: {
-    motto: 'Welcome to DuoCai!',
-    userInfo: {}
-  },
+  data: welcomeData,
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
@@ -24,7 +30,8 @@ Page({
     app.getUserInfo(function(userInfo){
       //更新数据
       that.setData({
-        userInfo:userInfo
+        userInfo:userInfo,
+        motto: 'Welcome to DuoCai!'
       })
     })
   }
